@@ -32,3 +32,43 @@ body {
     padding: 10px;
     transition: border 0.3s ease, transform 0.3s ease;
 }
+
+.card:hover {
+    border: 2px solid #007bff;
+    transform: scale(1.02);
+}
+
+.card.completed {
+    background: #d4edda;
+}
+
+.card.overdue {
+    background: #f8d7da;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
