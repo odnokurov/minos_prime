@@ -43,7 +43,7 @@ body {
 .column button {
     margin: 16px 20px;
     padding: 10px 16px;
-    background: #4299e1;
+    background: #09d82b;
     color: white;
     border: none;
     border-radius: 8px;
@@ -52,9 +52,6 @@ body {
     transition: background 0.2s;
 }
 
-.column button:hover {
-    background: #3182ce;
-}
 
 .card {
     margin: 0 16px 16px;
@@ -176,7 +173,7 @@ body {
 }
 
 .card-buttons button:nth-child(2) {
-    color: #4299e1;
+    color: #09d82b;
     border-color: #bee3f8;
 }
 
@@ -189,18 +186,12 @@ body {
     border-color: #fed7aa;
 }
 
-.card-buttons button:nth-child(3):hover {
-    background: #fed7aa;
-}
 
 .card-buttons button:nth-child(4) {
     color: #e53e3e;
     border-color: #feb2b2;
 }
 
-.card-buttons button:nth-child(4):hover {
-    background: #feb2b2;
-}
 
 input[type="date"] {
     width: 100%;

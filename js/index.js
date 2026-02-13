@@ -102,7 +102,7 @@ Vue.component('board', {
         addCard(columnIndex) {
             const title = prompt("Введите заголовок задачи:");
             const description = prompt("Введите описание задачи:");
-            const deadlineInput = prompt("Введите дату дедлайна (ГГГГ-ММ-ДД):", new Date().toISOString().split('T')[0]);
+            const deadlineInput = prompt("Введите дату дедлайна:", new Date().toISOString().split('T')[0]);
 
             const timestamp = new Date().toLocaleString();
 
